@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Responsive Cart Page</title>
+
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="Images/Marmeto_img.png" />
+        </div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Shop</a>
+            <a href="#">Contact</a>
+            <a href="#">About</a>
+
+        </nav>
+        <div class="cart-icon">
+            <img src="Images/search_icon.png" alt="Cart" />
+            <img src="Images/fav_icon.png" alt="Cart" />
+            <img src="Images/cart_img.jpeg" alt="Cart" />
+        </div>
+    </header>
+
+    <!-- Main Cart Content -->
+    <main class="cart-page">
+        <!-- Cart Items Section -->
+        <section class="cart-items">
+            <h2>Your Cart</h2>
+            <div class="cart-item-list">
+                <!-- Cart items will be dynamically loaded here -->
+
+            </div>
+        </section>
+
+        <!-- Cart Totals Section -->
+        <section class="cart-totals">
+            <h3>Cart Summary</h3>
+            <div class="totals">
+                <p>Subtotal: <span id="subtotal">₹0</span></p>
+                <p>Total: <span id="total">₹0</span></p>
+                <button id="checkout-btn">Check Out</button>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="services">
+            <div class="service-icon">High Quality </div>         
+           <div class="service-icon">Warranty Protection</div>
+            <div class="service-icon">Free Shipping</div>
+            <div class="service-icon">24/7 Support</div>
+        </div>
+    </footer>
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
